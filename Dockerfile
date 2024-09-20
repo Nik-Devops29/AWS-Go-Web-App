@@ -2,7 +2,7 @@
 # Stage 1 with base image
 FROM golang:1.22.5 as base
 
-WORKDIR /main
+WORKDIR /app
 
 COPY go.md .
 
